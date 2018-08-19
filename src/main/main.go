@@ -1,6 +1,12 @@
 package main
-import "fmt"
+import fm "fmt"
 func main()  {
-	fmt.Println("hello world")
+	print(111111111)
+	fm.Println("hello world")
 	sayHello22()
+	f := "short"
+	fm.Println(f)
+	for i:=1; i<5; i++ {
+		fm.Print(i)
+	}
 }
