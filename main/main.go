@@ -22,7 +22,7 @@ func arr() {
 	//for _, v := range a {
 	//	fm.Printf("%d ", v)
 	//}
-
+	fm.Printf("test")
 	a := [...]    int{1, 2, 3}
 	for _, v := range a {
 		fm.Printf("%d", v)
